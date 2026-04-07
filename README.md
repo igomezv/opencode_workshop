@@ -35,6 +35,10 @@ conda --version
 conda create -n opencode-workshop python=3.11 numpy matplotlib
 conda activate opencode-workshop
 
+Install pip dependencies:
+
+pip install pandas scipy statsmodels seaborn tqdm joblib lightkurve astropy
+
 Test:
 
 python -c "import numpy, matplotlib; print('Environment OK')"
@@ -65,9 +69,7 @@ https://wezterm.org/installation.html
 
 Demo 1 — Fix a bug in NumPy code.
 
-Demo 2 — Complete a simple frequency search.
-
-Demo 3 — Debug plotting and indexing errors.
+Demo 2 — Complete a simple peak search.
 
 ### Example Prompts
 
