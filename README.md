@@ -81,9 +81,21 @@ Demo 2 — Complete a simple frequency search.
 
 Demo 3 — Debug plotting and indexing errors.
 
-Example prompt:
+### Example Prompts
 
 Explain the error in this file and fix it.
+
+### DEMO Prompt
+
+Write a Python script that:
+
+1. downloads a TESS light curve for TIC 25155310
+2. removes outliers
+3. flattens the light curve
+4. computes a Lomb-Scargle periodogram
+5. plots the light curve and the periodogram
+
+Use lightkurve and astropy.
 
 ---
 
