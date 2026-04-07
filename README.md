@@ -59,7 +59,7 @@ opencode --help
 
 ---
 
-## Install WezTerm
+## Install WezTerm (optional, alternative to Unix terminal)
 
 https://wezterm.org/installation.html
 
