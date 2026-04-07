@@ -85,7 +85,7 @@ Demo 3 — Debug plotting and indexing errors.
 
 Explain the error in this file and fix it.
 
-### DEMO Prompt
+### DEMO Prompt 1: Download and Analyze TESS Data
 
 Write a Python script that:
 
@@ -96,6 +96,19 @@ Write a Python script that:
 5. plots the light curve and the periodogram
 
 Use lightkurve and astropy.
+
+### DEMO Prompt 2: Read and Analyze Local FITS File
+
+Write a Python script that:
+
+1. reads the FITS file at `demos/data/hlsp_kepseismic_kepler_phot_kplr008006161-20d_kepler_v1_cor-filt-inp.fits`
+2. extracts the time and flux columns
+3. removes outliers (e.g., using sigma clipping)
+4. flattens the light curve
+5. computes a Lomb-Scargle periodogram
+6. plots both the light curve and periodogram
+
+Use lightkurve, astropy, and matplotlib.
 
 ---
 
