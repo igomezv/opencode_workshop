@@ -41,9 +41,9 @@ pip install pandas scipy statsmodels seaborn tqdm joblib lightkurve astropy
 
 Test:
 
+``` python
 python -c "import numpy, matplotlib; print('Environment OK')"
-
----
+``` 
 
 ## Install OpenCode
 
@@ -51,7 +51,9 @@ https://opencode.ai/download
 
 Linux / macOS:
 
+``` bash
 curl -fsSL https://opencode.ai/install | bash
+```
 
 Check:
 
