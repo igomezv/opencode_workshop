@@ -61,18 +61,6 @@ https://wezterm.org/installation.html
 
 ---
 
-## Repository Structure
-
-demos/
-    01_fix_mean_bug.py
-    02_finish_period_search.py
-    03_fix_plot_and_peak.py
-    data/
-        tiny_lightcurve_clean.csv
-        tiny_lightcurve_noisy.csv
-
----
-
 ## Demos
 
 Demo 1 — Fix a bug in NumPy code.
@@ -108,7 +96,11 @@ Write a Python script that:
 5. computes a Lomb-Scargle periodogram
 6. plots both the light curve and periodogram
 
-Use lightkurve, astropy, and matplotlib.
+### DEMO Prompt 3 with existing code.
+
+1. Explain the code of MIARMA_python-main to me, translate it into English and correct it, give me a test.py file to verify it.
+2. Messy notebook. 
+
 
 ---
 
